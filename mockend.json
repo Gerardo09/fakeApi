@@ -1,19 +1,13 @@
 {
-  "listPalletsProcessedDTO": [
-    {
-      "barcodeaws": "string",
-      "closedDate": "2021-04-04T22:46:15.320Z",
-      "destiny": "string",
-      "idPallet": 0,
-      "idUser": 0,
-      "idZone": 0,
-      "line": "string",
-      "numCartons": 0,
-      "numPalletsDestiny": 0,
-      "openDate": "2021-04-04T22:46:15.320Z",
-      "openPalletStatus": true
-    }
-  ],
-  "totalElements": 0,
-  "totalPages": 0
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
