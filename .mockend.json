@@ -1,5 +1,5 @@
 {
-  "listPalletsProcessedDTO": [
+  "Pallets": [
     {
       "barcodeaws": "string",
       "closedDate": "2021-04-04T22:46:15.320Z",
