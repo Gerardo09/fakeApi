@@ -1,13 +1,18 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "pallets":"pallet[]",
+  "pallet": {
+    "barcodeaws": "string",
+    "closedDate": "date",
+    "destiny": "string",
+    "idPallet": "int",
+    "idUser": "int",
+    "idZone": "int",
+    "line": "string",
+    "numCartons": "int",
+    "numPalletsDestiny": "int",
+    "openDate": "date",
+    "openPalletStatus": "boolean"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+  "totalElements": "int",
+  "totalPages": "int"
 }
