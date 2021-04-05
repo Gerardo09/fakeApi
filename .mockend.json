@@ -1,4 +1,9 @@
 {
+  "Response": {
+    "listPallet": "Pallet[]",
+    "totalElements": "int",
+    "totalPages": "int"
+  },
   "Pallet": {
     "barcodeaws": "string",
     "closedDate": "date",
@@ -11,7 +16,5 @@
     "numPalletsDestiny": "int",
     "openDate": "date",
     "openPalletStatus": "boolean"
-  },
-  "totalElements": "int",
-  "totalPages": "int"
+  }
 }
