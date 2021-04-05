@@ -1,6 +1,6 @@
 {
-  "pallets":"pallet[]",
-  "pallet": {
+  "Pallets":"Pallet[]",
+  "Pallet": {
     "barcodeaws": "string",
     "closedDate": "date",
     "destiny": "string",
